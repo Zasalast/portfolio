@@ -36,46 +36,51 @@ const config = {
   ],
   experiences: [
     {
-      company: ' PLANETA MÓVIL ',
-      position: 'Asesor ',
-      from: 'September 2021',
-      to: 'Present',
+      company: 'UNIDAD DE APOYO UDLA',
+      position: 'Arquitecto, Diseñador & Programador  ',
+      from: 'Diciembre 2022 ',
+      to: 'Enero 2023',
     },
     {
-      company: 'PLANETA MÓVIL ',
+      company: 'PLANETA MÓVILO',
       position: 'Asesor',
       from: 'Diciembre 2019  ',
       to: 'Enero 2020',
     },
     {
-      company: 'PLANETA MÓVIL ',
-      position: 'Asesor',
-      from: 'Diciembre 2019  ',
-      to: 'Enero 2020',
+      company: 'PACTIA',
+      position: 'Informador centro comercial',
+      from: 'Enero 2016',
+      to: 'Enero 2017',
     }, {
-      company: 'PLANETA MÓVIL ',
-      position: 'Asesor',
-      from: 'Diciembre 2019  ',
-      to: 'Enero 2020',
+      company: 'EKO-ARK ARQUITECTURA BIOCLIMÁTICA',
+      position: ' Practicante',
+      from: 'Septiembre 2012',
+      to: 'Marzo 2013',
     },
   ],
   education: [
     {
-      institution: 'American International University-Bangladesh',
-      degree: 'Bachelor of Science',
+      institution: 'Universidad de la Amazonia',
+      degree: 'Ingeniería de Sistemas',
       from: '2015',
       to: '2019',
+    }, {
+      institution: 'Servicio Nacional de Aprendizaje SENA. Centro Tecnológico de la Amazonia. Florencia - Caquetá',
+      degree: 'Tecnólogo Técnicas en Gráfico  Desarrollo de Proyectos de Construcción.',
+      from: '2010',
+      to: '2013',
     }
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'zasalastobon', // to hide blog section, keep it empty
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-    id: 'G-WLLB5E14M6', // Please remove this and use your own tag id or keep it empty
+    id: '	G-C6Y1LMQXN0', // Please remove this and use your own tag id or keep it empty
   },
   hotjar: {
     id: '2617601', //  Please remove this and use your own id or keep it empty
