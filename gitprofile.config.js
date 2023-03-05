@@ -1,9 +1,7 @@
-// gitprofile.config.js
-
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
+    username: 'Zasalast',
+    sortBy: 'updated', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
@@ -11,21 +9,19 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    facebook: '',
-    instagram: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    website: 'https://arifszn.github.io',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    linkedin: 'zanoni-alfredo-salas-tob%C3%B3n-30b1b6241',
+    twitter: 'ZasColectivo',
+    facebook: 'zalfredosalas',
+    instagram: 'zasalast',
+    dribbble: 'zasalastobon',
+    behance: 'zanonisalast',
+    medium: '@zasalastobon',
+    dev: 'zasalastobon',
+    website: 'https://zasalastobon.com',
+    phone: '+3134208041',
+    email: 'zasalastobon@gmail.com',
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
@@ -33,7 +29,6 @@ const config = {
     'MySQL',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
     'Antd',
     'Tailwind',
@@ -41,16 +36,27 @@ const config = {
   ],
   experiences: [
     {
-      company: 'Monstarlab Bangladesh',
-      position: 'Backend Engineer II',
+      company: ' PLANETA MÓVIL ',
+      position: 'Asesor ',
       from: 'September 2021',
       to: 'Present',
     },
     {
-      company: 'My Offer 360 Degree',
-      position: 'Web Application Developer',
-      from: 'July 2019',
-      to: 'August 2021',
+      company: 'PLANETA MÓVIL ',
+      position: 'Asesor',
+      from: 'Diciembre 2019  ',
+      to: 'Enero 2020',
+    },
+    {
+      company: 'PLANETA MÓVIL ',
+      position: 'Asesor',
+      from: 'Diciembre 2019  ',
+      to: 'Enero 2020',
+    }, {
+      company: 'PLANETA MÓVIL ',
+      position: 'Asesor',
+      from: 'Diciembre 2019  ',
+      to: 'Enero 2020',
     },
   ],
   education: [
@@ -59,19 +65,7 @@ const config = {
       degree: 'Bachelor of Science',
       from: '2015',
       to: '2019',
-    },
-    {
-      institution: 'Cantonment College, Jessore',
-      degree: 'Higher Secondary Certificate (HSC)',
-      from: '2012',
-      to: '2014',
-    },
-    {
-      institution: 'Chowgacha Shahadat Pilot High School',
-      degree: 'Secondary School Certificate (SSC)',
-      from: '2007',
-      to: '2012',
-    },
+    }
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
