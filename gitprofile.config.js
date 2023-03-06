@@ -5,7 +5,7 @@ const config = {
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['libromongodb'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -52,7 +52,8 @@ const config = {
       position: 'Informador centro comercial',
       from: 'Enero 2016',
       to: 'Enero 2017',
-    }, {
+    },
+    {
       company: 'EKO-ARK ARQUITECTURA BIOCLIMÁTICA',
       position: ' Practicante',
       from: 'Septiembre 2012',
@@ -63,14 +64,17 @@ const config = {
     {
       institution: 'Universidad de la Amazonia',
       degree: 'Ingeniería de Sistemas',
-      from: '2015',
-      to: '2019',
-    }, {
-      institution: 'Servicio Nacional de Aprendizaje SENA. Centro Tecnológico de la Amazonia. Florencia - Caquetá',
-      degree: 'Tecnólogo Técnicas en Gráfico  Desarrollo de Proyectos de Construcción.',
+      from: '',
+      to: '2023',
+    },
+    {
+      institution:
+        'Servicio Nacional de Aprendizaje SENA Centro Tecnológico de la Amazonia Florencia Caquetá',
+      degree:
+        'Tecnólogo Técnicas en Gráfico  Desarrollo de Proyectos de Construcción.',
       from: '2010',
       to: '2013',
-    }
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
@@ -80,25 +84,25 @@ const config = {
   },
   googleAnalytics: {
     // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-    id: '	G-C6Y1LMQXN0', // Please remove this and use your own tag id or keep it empty
+    id: 'G-C6Y1LMQXN0', // Please remove this and use your own tag id or keep it empty
   },
   hotjar: {
     id: '2617601', //  Please remove this and use your own id or keep it empty
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'corporate',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Hide the ring in Profile picture
-    hideAvatarRing: false,
+    hideAvatarRing: true,
 
     // Available themes. To remove any theme, exclude from here.
     themes: [

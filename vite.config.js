@@ -8,7 +8,7 @@ import tailwindConfig from './tailwind.config.mjs';
 export default defineConfig({
   // If you are deploying to https://<USERNAME>.github.io/, set base to '/'.
   // If you are deploying to https://<USERNAME>.github.io/<REPO>/, for example your repository is at https://github.com/Zasalast/portfolio, then set base to '/<REPO>/'. https://github.com/Zasalast/portfolio,
-  base: '/gitprofile/',
+  base: '/', // /gitprofile/
   plugins: [react()],
   css: {
     postcss: {
